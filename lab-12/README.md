@@ -25,7 +25,7 @@ No es el objetivo del laboratorio profundizar en la teoría de la programación 
 
 Hasta ahora, nuestro QTimer se encargaba explícitamente de actualizar los valores de la gráfica y el valor del título. Sin embargo, a partir de ahora, el QTimer se encargará de refrescar nuestro origen de datos pero será la interfaz la que esté pendiente de los nuevos valores, para hacer las actualizaciones pertinentes. En otras palabras, vamos a generar un flujo continuo de datos y haremos que nuestra aplicación esté pendiente de los nuevos valores.
 
-¡Manos a la obra! Lo primero de todo es crear, al comienzo del método \_\_init\_\_.py de la clase Monitor, un Observable. Para ello, escribiremos la siguiente línea de código:
+¡Manos a la obra! Lo primero de todo es crear, al comienzo del método \_\_init\_\_ de la clase Monitor, un Observable. Para ello, escribiremos la siguiente línea de código:
 
 ``` python
 # ...
